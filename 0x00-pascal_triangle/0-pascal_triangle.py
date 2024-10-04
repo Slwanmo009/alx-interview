@@ -25,5 +25,4 @@ def pascal_triangle(n):
             elif(col == li):
                 """ the diagonal is always set to 1 """
                 pascal[li].append(1)
-
-    return pascal
+                return pascal
